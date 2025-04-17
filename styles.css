@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 18px;
+}
+
+body {
+    width: 100%;
+    color: #264065;
+    background-image: url("./img/background.svg"), url("./img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right, top;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: #264065;
+}
+
+.btn {
+    background-color: #264065;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero {
+    position: absolute;
+    top: 20%;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    max-width: 809px;
+    max-height: 388px;
+    gap: 20px;
+}
+
+.hero h1 {
+    font-size: 64px;
+}
+
+.hero p {
+    font-size: 24px;
+    max-width: 760px;
+    color: #909090;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.hero-btn img {
+    background-color: white;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.hero-btn a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons {
+    position: absolute;
+    top: 62%;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+    max-width: 643px;
+    max-height: 284px;
+    gap: 60px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 145px;
+}
+
+.icon h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.icon p {
+    text-align: center;
+}
+
+.testimonys {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    max-width: 369px;
+    max-height: 247px;
+    background-color: #ffffff83;
+    padding: 1rem;
+    border-radius: 15px;
+    gap: 1rem;
+}
+.testimony img {
+    max-width: 32px;
+}
+
+.testimony.uno {
+    position: absolute;
+    right: 60px;
+    top: 300px;
+}
+
+.testimony.dos {
+    position: absolute;
+    right: 150px;
+    top: 600px;
+}
